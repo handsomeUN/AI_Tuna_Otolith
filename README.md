@@ -18,11 +18,21 @@ This work aims to support the continued development of AI-enhanced otolith readi
 
 ### ✅ 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/SBT_2025.git
+git clone https://github.com/handsomeUN/AI_Tuna_Otolith.git
 cd SBT_2025
 ```
 
 ### ✅ 2. Install Dependencies
 ```bash
-
+pip install -r requirements.txt
+```
+📦 If you encounter issues with grad-cam, install it directly from GitHub:
+```bash
+pip install git+https://github.com/jacobgil/pytorch-grad-cam.git
+```
+### 🚀 Usage
+Launch the notebook to start exploring the project:
+```bash
+jupyter notebook SBT_2025.ipynb
+```
 
