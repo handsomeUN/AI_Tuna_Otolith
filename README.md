@@ -15,24 +15,33 @@ The notebook covers:
 
 This work aims to support the continued development of AI-enhanced otolith reading tools and contribute to sustainable marine resource management.
 
+## 📂 Data
 
-### ✅ 1. Clone the Repository
-```bash
-git clone https://github.com/handsomeUN/AI_Tuna_Otolith.git
-cd SBT_2025
-```
+This project utilizes otolith image data provided by the Institute of Oceanography, National Taiwan University (NTU). **Due to academic and ethical considerations, the original dataset is not included in this repository.** If you are interested in using the dataset, please contact the original data providers for access permission.
 
-### ✅ 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-📦 If you encounter issues with grad-cam, install it directly from GitHub:
-```bash
-pip install git+https://github.com/jacobgil/pytorch-grad-cam.git
-```
-### 🚀 Usage
-Launch the notebook to start exploring the project:
-```bash
-jupyter notebook SBT_2025.ipynb
-```
+### 📁 Recommended Folder Structure
 
+Please organize your dataset in the following structure under a `data/` directory:
+
+├── train/
+│   ├── 1/
+│   |   ├── img001.jpg
+│   |   ├── img002.jpg
+│   |   └── ....
+│   ├── 2/
+│   |   ├── img001.jpg
+│   |   ├── img002.jpg
+│   |   └── ....
+│   └── ....
+└──
+├── test/
+│   ├── 1/
+│   |   ├── img001.jpg
+│   |   ├── img002.jpg
+│   |   └── ....
+│   ├── 2/
+│   |   ├── img001.jpg
+│   |   ├── img002.jpg
+│   |   └── ....
+│   └── ....
+└──
