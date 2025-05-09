@@ -23,25 +23,8 @@ This project utilizes otolith image data provided by the Institute of Oceanograp
 
 Please organize your dataset in the following structure under a `data/` directory:
 
-├── train/
-│   ├── 1/
-│   |   ├── img001.jpg
-│   |   ├── img002.jpg
-│   |   └── ....
-│   ├── 2/
-│   |   ├── img001.jpg
-│   |   ├── img002.jpg
-│   |   └── ....
-│   └── ....
-└──
-├── test/
-│   ├── 1/
-│   |   ├── img001.jpg
-│   |   ├── img002.jpg
-│   |   └── ....
-│   ├── 2/
-│   |   ├── img001.jpg
-│   |   ├── img002.jpg
-│   |   └── ....
-│   └── ....
-└──
+SBT_2025/
+├── data/
+│ ├── images/
+│ │ ├── 004_otolith.jpg
+│ │ ├── 005_otolith.jpg
