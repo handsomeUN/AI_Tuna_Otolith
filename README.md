@@ -16,10 +16,13 @@ The notebook covers:
 This work aims to support the continued development of AI-enhanced otolith reading tools and contribute to sustainable marine resource management.
 
 
-## 🚀 Getting Started
-
+### ✅ 1. Clone the Repository
 ```bash
-git clone https://github.com/handsomeUN/AI_Tuna_Otolith.git
+git clone https://github.com/yourusername/SBT_2025.git
 cd SBT_2025
-pip install -r requirements.txt
-pip install git+https://github.com/jacobgil/pytorch-grad-cam.git
+```
+
+### ✅ 2. Install Dependencies
+```bash
+
+
