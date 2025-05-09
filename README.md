@@ -9,16 +9,12 @@ This project explores transformer-based age prediction of Southern bluefin tuna 
 The notebook covers:
 - Image preprocessing and augmentation strategies
 - A Vit-based model for age classification (ages 1-21+)
+- **Confusion matrix analysis** to assess model misclassification across age groups
+- **Grad-CAM++ heatmap visualization** to highlight age-relevant otolith regions and improve model interpretability
 - Model evaluation using ±1 accuracy
 
 This work aims to support the continued development of AI-enhanced otolith reading tools and contribute to sustainable marine resource management.
 
-
-## 📂 File Structure
-
-- `SBT_2025.ipynb`: Main notebook with full analysis
-- `requirements.txt`: Python packages used
-- `assets/`: Figures or data used in the notebook (optional)
 
 ## 🚀 Getting Started
 
