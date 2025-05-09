@@ -15,6 +15,17 @@ The notebook covers:
 
 This work aims to support the continued development of AI-enhanced otolith reading tools and contribute to sustainable marine resource management.
 
+✅ 3. Install Dependencies
+Use the following command to install all required packages:
+
+```bash
+pip install -r requirements.txt
+```
+📦 If you encounter issues with grad-cam, install it directly from GitHub:
+```bash
+pip install git+https://github.com/jacobgil/pytorch-grad-cam.git
+```
+
 ## 📂 Data
 
 This project utilizes otolith image data provided by the Institute of Oceanography, National Taiwan University (NTU). **Due to academic and ethical considerations, the original dataset is not included in this repository.** If you are interested in using the dataset, please contact the original data providers for access permission.
