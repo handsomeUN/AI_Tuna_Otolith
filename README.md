@@ -15,7 +15,7 @@ The notebook covers:
 
 This work aims to support the continued development of AI-enhanced otolith reading tools and contribute to sustainable marine resource management.
 
-✅ 3. Install Dependencies
+## ✅ Install Dependencies
 Use the following command to install all required packages:
 
 ```bash
